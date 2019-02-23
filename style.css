@@ -1,0 +1,70 @@
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit;
+}
+
+.wrapper a {
+	color: gray;
+}
+
+a:hover {
+	text-shadow: 2px 2px 4px orange;
+}
+
+
+.wrapper {
+	text-align: center;
+}
+
+nav {
+	border-radius: 25px;
+    background-color: gray;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 130%;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-right: 5px;
+    text-align: right;
+    color: #666666;
+    font-style: italic;
+
+}
+
+body {
+	font-family: helvetica;
+}
+
+img {
+	width: : 100px;
+	height: 200px;
+    border-radius: 10%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 900px)
+{
+    body
+    {
+        font-size: 130%;
+    }
+
+    nav a 
+    {
+        display: block;
+        color: gray;
+        
+    }
+
+    nav 
+    {
+        background-color: white;
+    }
+}
